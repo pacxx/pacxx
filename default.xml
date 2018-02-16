@@ -6,5 +6,4 @@
   <project path="llvm/tools/clang" name="pacxx-clang" />
   <project path="llvm/tools/rv" name="pacxx-rv" />
   <project path="llvm/projects/pacxxrt" name="pacxx-runtime" />
-  <project path="llvm/projects/lld" name="pacxx-lld" />
 </manifest>
