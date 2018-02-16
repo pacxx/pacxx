@@ -125,12 +125,6 @@ CUDAKernel.cpp:55: note: VERBOSE: Kernel configuration:
                                   shared_mem=0
 Executor.h:99: note: VERBOSE: destroying executor 0
 ```
-
-
-# Upcoming Stuff
-
-- Support for AMD GPUs through the HIP stack on the ROCm infrastructure. 
-
 # Known Issues
 
 - [ ] Atomic Operations are more or less a bad hack.
