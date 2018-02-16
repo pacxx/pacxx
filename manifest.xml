@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="origin" fetch=".." />
+  <default revision="master" remote="origin" sync-s="true" sync-j="4" sync-c="true" />
+  <project path="llvm" name="pacxx-llvm.git" />
+  <project path="llvm/tools/clang" name="pacxx-clang.git" />
+  <project path="llvm/tools/rv" name="pacxx-rv.git" />
+  <project path="llvm/projects/pacxxrt" name="pacxx-runtime.git" />
+  <project path="llvm/projects/lld" name="pacxx-lld.git" />
+</manifest>
