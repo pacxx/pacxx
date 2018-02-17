@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="origin" fetch=".." />
+  <remote  name="origin" fetch="." />
   <default revision="master" remote="origin" sync-s="true" sync-j="4" sync-c="true" />
   <project path="llvm" name="pacxx-llvm" />
   <project path="llvm/tools/clang" name="pacxx-clang" />
