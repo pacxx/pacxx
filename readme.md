@@ -13,7 +13,7 @@ Currently, PACXX supports Nvidia GPUs with Compute Capability of 2.0 and above, 
 
  First of all clone the source:
 
- The convient way is to use **repo**. You can get **repo** here.
+ The convient way is to use **repo**. You can get **repo** [here][8].
 
  
 ``` bash
@@ -127,7 +127,7 @@ Executor.h:99: note: VERBOSE: destroying executor 0
 ```
 # Known Issues
 
-- [ ] Atomic Operations are more or less a bad hack.
+- [x] Atomic Operations are more or less a bad hack. Solution: C11 atomics work well on all back-ends.
 - [ ] Missing support for constant memory regions on GPUs.
 - [ ] Documentation. Well yes the only available documentation on the PACXX runtime and the programming model itself is source code.
 
@@ -154,4 +154,4 @@ Haidl M, Moll S, Klein L, Sun H, Hack S, Gorlatch S. 2017 '[PACXXv2 + RV: An LLV
 [4]:https://link.springer.com/article/10.1007%2Fs10766-017-0497-y
 [5]:https://dl.acm.org/citation.cfm?doid=3026937.3026942
 [6]:https://dl.acm.org/citation.cfm?id=3148185
-
+[7]:https://source.android.com/setup/downloading
