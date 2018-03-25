@@ -13,7 +13,7 @@ Currently, PACXX supports Nvidia GPUs with Compute Capability of 2.0 and above, 
 
  First of all clone the source:
 
- The convient way is to use **repo**. You can get **repo** [here][8].
+ The convient way is to use **repo**. You can get **repo** [here][7].
 
  
 ``` bash
