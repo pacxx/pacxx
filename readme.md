@@ -22,6 +22,8 @@ repo sync
 ```
 
 Repo will set up all sub reporsitories for you to get going including the PACXX runtime and the modified Clang frontend. 
+If repo does not work you can clone the repositories by hand just like with an original LLVM build.
+To clone by hand, clone the [pacxx-llvm][8] repo to, e.g., `llvm` directory. Then you clone [pacxx-clang][9] to `llvm/tools/clang`, [pacxx-rv][10] to `llvm/tools/rv` and finaly [pacxx-runtime][11] to `llvm/projects/pacxxrt`.
 
  Build PACXX: 
 
@@ -155,3 +157,7 @@ Haidl M, Moll S, Klein L, Sun H, Hack S, Gorlatch S. 2017 '[PACXXv2 + RV: An LLV
 [5]:https://dl.acm.org/citation.cfm?doid=3026937.3026942
 [6]:https://dl.acm.org/citation.cfm?id=3148185
 [7]:https://source.android.com/setup/downloading
+[8]:https://github.com/pacxx/pacxx-llvm
+[9]:https://github.com/pacxx/pacxx-clang
+[10]:https://github.com/pacxx/pacxx-rv
+[11]:https://github.com/pacxx/pacxx-runtime
